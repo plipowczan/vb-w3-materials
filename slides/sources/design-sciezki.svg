@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="520" viewBox="0 0 1180 520" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <marker id="g" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#00ff9d"/>
+    </marker>
+    <marker id="b" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#00b8ff"/>
+    </marker>
+  </defs>
+
+  <!-- ===== TECH lane ===== -->
+  <text x="48" y="40" fill="#00ff9d" font-size="19" font-weight="700">Track Tech — impeccable</text>
+  <text x="320" y="40" fill="#6b7280" font-size="14">npx impeccable skills install</text>
+
+  <!-- 4 boxes: x 48 / 326 / 604 / 882, width 250, y 64 h 120 -->
+  <!-- init -->
+  <rect x="48" y="64" width="250" height="120" rx="12" fill="#0a1f17" stroke="#00ff9d" stroke-width="2"/>
+  <text x="66" y="98" fill="#00ff9d" font-size="19" font-weight="700">init</text>
+  <text x="66" y="126" fill="#f3f4f6" font-size="14">DESIGN.md z prd+brand</text>
+  <text x="66" y="160" fill="#9aa4b2" font-size="13">po wygenerowaniu PRD</text>
+  <!-- shape -->
+  <rect x="326" y="64" width="250" height="120" rx="12" fill="#0a1f17" stroke="#00ff9d" stroke-width="2"/>
+  <text x="344" y="98" fill="#00ff9d" font-size="19" font-weight="700">shape</text>
+  <text x="344" y="126" fill="#f3f4f6" font-size="14">plan UX przed kodem</text>
+  <text x="344" y="160" fill="#9aa4b2" font-size="13">przed buildem core flow</text>
+  <!-- polish -->
+  <rect x="604" y="64" width="250" height="120" rx="12" fill="#0a1f17" stroke="#00ff9d" stroke-width="2"/>
+  <text x="622" y="98" fill="#00ff9d" font-size="19" font-weight="700">polish</text>
+  <text x="622" y="126" fill="#f3f4f6" font-size="14">wyrównanie do DESIGN.md</text>
+  <text x="622" y="160" fill="#9aa4b2" font-size="13">po M3 (core flow UI)</text>
+  <!-- audit -->
+  <rect x="882" y="64" width="250" height="120" rx="12" fill="#0a1f17" stroke="#00ff9d" stroke-width="2"/>
+  <text x="900" y="98" fill="#00ff9d" font-size="19" font-weight="700">audit</text>
+  <text x="900" y="126" fill="#f3f4f6" font-size="14">a11y · responsywność</text>
+  <text x="900" y="160" fill="#9aa4b2" font-size="13">przed deployem</text>
+
+  <!-- tech arrows -->
+  <line x1="298" y1="124" x2="324" y2="124" stroke="#00ff9d" stroke-width="2.5" marker-end="url(#g)"/>
+  <line x1="576" y1="124" x2="602" y2="124" stroke="#00ff9d" stroke-width="2.5" marker-end="url(#g)"/>
+  <line x1="854" y1="124" x2="880" y2="124" stroke="#00ff9d" stroke-width="2.5" marker-end="url(#g)"/>
+
+  <!-- ===== BUILDER lane ===== -->
+  <text x="65" y="290" fill="#00b8ff" font-size="19" font-weight="700">Track Builder</text>
+  <text x="225" y="290" fill="#6b7280" font-size="14">design wbudowany w narzędzie</text>
+
+  <!-- 3 boxes: x 65 / 425 / 785, width 330, y 312 h 100 -->
+  <rect x="65" y="312" width="330" height="100" rx="12" fill="#0e1626" stroke="#00b8ff" stroke-width="2"/>
+  <text x="85" y="348" fill="#00b8ff" font-size="16" font-weight="700">§9 Component Inventory</text>
+  <text x="85" y="378" fill="#cdd3dc" font-size="14">komponent po komponencie</text>
+
+  <rect x="425" y="312" width="330" height="100" rx="12" fill="#0e1626" stroke="#00b8ff" stroke-width="2"/>
+  <text x="445" y="348" fill="#00b8ff" font-size="16" font-weight="700">brand w Knowledge</text>
+  <text x="445" y="378" fill="#cdd3dc" font-size="14">stosowany w każdej sesji</text>
+
+  <rect x="785" y="312" width="330" height="100" rx="12" fill="#0e1626" stroke="#00b8ff" stroke-width="2"/>
+  <text x="805" y="348" fill="#00b8ff" font-size="16" font-weight="700">iteracja w preview</text>
+  <text x="805" y="378" fill="#cdd3dc" font-size="14">test przed następnym ekranem</text>
+
+  <!-- builder arrows -->
+  <line x1="395" y1="362" x2="423" y2="362" stroke="#00b8ff" stroke-width="2.5" marker-end="url(#b)"/>
+  <line x1="755" y1="362" x2="783" y2="362" stroke="#00b8ff" stroke-width="2.5" marker-end="url(#b)"/>
+
+  <!-- footnote: experimental builder option -->
+  <text x="65" y="470" fill="#6b7280" font-size="14">Builder eksperymentalnie: Lovable → GitHub sync → impeccable</text>
+  <text x="65" y="492" fill="#6b7280" font-size="14">audit (read-only) → poprawki briefingami w Lovable</text>
+</svg>

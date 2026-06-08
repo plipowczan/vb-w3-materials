@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="230" viewBox="0 0 1180 230" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <marker id="arc" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#6b7280"/>
+    </marker>
+    <marker id="arcg" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#00ff9d"/>
+    </marker>
+  </defs>
+
+  <!-- 5 week nodes: x = 40 + i*230 ; width 180 -->
+  <!-- W1 -->
+  <rect x="40"  y="70" width="180" height="80" rx="12" fill="#151b2b" stroke="#2b3242" stroke-width="2"/>
+  <text x="130" y="103" text-anchor="middle" fill="#6b7280" font-size="16" font-weight="700">W1</text>
+  <text x="130" y="128" text-anchor="middle" fill="#cdd3dc" font-size="16">Problem</text>
+  <!-- W2 -->
+  <rect x="270" y="70" width="180" height="80" rx="12" fill="#151b2b" stroke="#2b3242" stroke-width="2"/>
+  <text x="360" y="103" text-anchor="middle" fill="#6b7280" font-size="16" font-weight="700">W2</text>
+  <text x="360" y="128" text-anchor="middle" fill="#cdd3dc" font-size="16">GTM</text>
+  <!-- W3 ACTIVE -->
+  <rect x="500" y="58" width="180" height="104" rx="12" fill="#0a1f17" stroke="#00ff9d" stroke-width="3"/>
+  <text x="590" y="92"  text-anchor="middle" fill="#00ff9d" font-size="17" font-weight="700">W3</text>
+  <text x="590" y="118" text-anchor="middle" fill="#f3f4f6" font-size="16" font-weight="600">MVP</text>
+  <text x="590" y="142" text-anchor="middle" fill="#00ff9d" font-size="13">← tu jesteśmy</text>
+  <!-- W4 -->
+  <rect x="730" y="70" width="180" height="80" rx="12" fill="#151b2b" stroke="#2b3242" stroke-width="2"/>
+  <text x="820" y="103" text-anchor="middle" fill="#6b7280" font-size="16" font-weight="700">W4</text>
+  <text x="820" y="128" text-anchor="middle" fill="#cdd3dc" font-size="16">Feedback</text>
+  <!-- W5 -->
+  <rect x="960" y="70" width="180" height="80" rx="12" fill="#151b2b" stroke="#2b3242" stroke-width="2"/>
+  <text x="1050" y="103" text-anchor="middle" fill="#6b7280" font-size="16" font-weight="700">W5</text>
+  <text x="1050" y="128" text-anchor="middle" fill="#cdd3dc" font-size="16">Pitch</text>
+
+  <!-- arrows -->
+  <line x1="222" y1="110" x2="266" y2="110" stroke="#6b7280" stroke-width="2.5" marker-end="url(#arc)"/>
+  <line x1="452" y1="110" x2="496" y2="110" stroke="#00ff9d" stroke-width="2.5" marker-end="url(#arcg)"/>
+  <line x1="682" y1="110" x2="726" y2="110" stroke="#00ff9d" stroke-width="2.5" marker-end="url(#arcg)"/>
+  <line x1="912" y1="110" x2="956" y2="110" stroke="#6b7280" stroke-width="2.5" marker-end="url(#arc)"/>
+
+  <!-- handoff captions under the W2->W3->W4 span -->
+  <text x="360" y="188" text-anchor="middle" fill="#6b7280" font-size="13">zwalidowany popyt</text>
+  <text x="590" y="188" text-anchor="middle" fill="#00ff9d" font-size="13">budujemy podaż</text>
+  <text x="820" y="188" text-anchor="middle" fill="#6b7280" font-size="13">ruch + analytics</text>
+</svg>

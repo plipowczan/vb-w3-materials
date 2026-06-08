@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="600" viewBox="0 0 1180 600" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#00ff9d"/>
+    </marker>
+  </defs>
+
+  <!-- ===== Faza boxes ===== -->
+  <!-- 6 boxes: x = 20 + i*193 ; width 175 -->
+  <g>
+    <!-- Faza 0 -->
+    <rect x="20"  y="70" width="175" height="120" rx="14" fill="#151b2b" stroke="#00ff9d" stroke-width="2"/>
+    <text x="107" y="108" text-anchor="middle" fill="#00ff9d" font-size="19" font-weight="700">Faza 0</text>
+    <text x="107" y="138" text-anchor="middle" fill="#f3f4f6" font-size="16">Input lock</text>
+    <text x="107" y="160" text-anchor="middle" fill="#f3f4f6" font-size="16">+ brand</text>
+
+    <!-- Faza 1 -->
+    <rect x="213" y="70" width="175" height="120" rx="14" fill="#151b2b" stroke="#00ff9d" stroke-width="2"/>
+    <text x="300" y="108" text-anchor="middle" fill="#00ff9d" font-size="19" font-weight="700">Faza 1</text>
+    <text x="300" y="142" text-anchor="middle" fill="#f3f4f6" font-size="16">PRD</text>
+
+    <!-- Faza 2 -->
+    <rect x="406" y="70" width="175" height="120" rx="14" fill="#151b2b" stroke="#00ff9d" stroke-width="2"/>
+    <text x="493" y="108" text-anchor="middle" fill="#00ff9d" font-size="19" font-weight="700">Faza 2</text>
+    <text x="493" y="138" text-anchor="middle" fill="#f3f4f6" font-size="16">Track lock</text>
+    <text x="493" y="160" text-anchor="middle" fill="#f3f4f6" font-size="16">+ reguły</text>
+
+    <!-- Faza 3 -->
+    <rect x="599" y="70" width="175" height="120" rx="14" fill="#151b2b" stroke="#00ff9d" stroke-width="2"/>
+    <text x="686" y="108" text-anchor="middle" fill="#00ff9d" font-size="19" font-weight="700">Faza 3</text>
+    <text x="686" y="138" text-anchor="middle" fill="#f3f4f6" font-size="16">Milestones</text>
+    <text x="686" y="160" text-anchor="middle" fill="#f3f4f6" font-size="16">M1–M5</text>
+
+    <!-- Faza 4 -->
+    <rect x="792" y="70" width="175" height="120" rx="14" fill="#151b2b" stroke="#00ff9d" stroke-width="2"/>
+    <text x="879" y="108" text-anchor="middle" fill="#00ff9d" font-size="19" font-weight="700">Faza 4</text>
+    <text x="879" y="142" text-anchor="middle" fill="#f3f4f6" font-size="16">Build</text>
+
+    <!-- Faza 5 -->
+    <rect x="985" y="70" width="175" height="120" rx="14" fill="#0a1f17" stroke="#00ff9d" stroke-width="3"/>
+    <text x="1072" y="108" text-anchor="middle" fill="#00ff9d" font-size="19" font-weight="700">Faza 5</text>
+    <text x="1072" y="138" text-anchor="middle" fill="#f3f4f6" font-size="16">Deploy</text>
+    <text x="1072" y="160" text-anchor="middle" fill="#00ff9d" font-size="14">public URL</text>
+  </g>
+
+  <!-- arrows between boxes -->
+  <g stroke="#00ff9d" stroke-width="2.5">
+    <line x1="196" y1="130" x2="210" y2="130" marker-end="url(#arrow)"/>
+    <line x1="389" y1="130" x2="403" y2="130" marker-end="url(#arrow)"/>
+    <line x1="582" y1="130" x2="596" y2="130" marker-end="url(#arrow)"/>
+    <line x1="775" y1="130" x2="789" y2="130" marker-end="url(#arrow)"/>
+    <line x1="968" y1="130" x2="982" y2="130" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- ===== Calendar band ===== -->
+  <!-- zone brackets connecting phases to calendar -->
+  <g stroke="#2b3242" stroke-width="1.5" stroke-dasharray="4 4">
+    <line x1="107" y1="200" x2="107" y2="360"/>
+    <line x1="493" y1="200" x2="493" y2="360"/>
+    <line x1="686" y1="200" x2="686" y2="360"/>
+    <line x1="1072" y1="200" x2="1072" y2="360"/>
+  </g>
+
+  <!-- three calendar zones -->
+  <g>
+    <!-- Pon -> Sr : zadanie (Fazy 0-2) -->
+    <rect x="20" y="370" width="561" height="90" rx="12" fill="#0e1626" stroke="#00b8ff" stroke-width="2"/>
+    <text x="300" y="402" text-anchor="middle" fill="#00b8ff" font-size="18" font-weight="700">PON → ŚR</text>
+    <text x="300" y="430" text-anchor="middle" fill="#f3f4f6" font-size="16">zadanie domowe</text>
+    <text x="300" y="450" text-anchor="middle" fill="#6b7280" font-size="14">brand → PRD → reguły (~1–1.5h)</text>
+
+    <!-- Sroda : milestones + start build -->
+    <rect x="599" y="370" width="175" height="90" rx="12" fill="#0e1626" stroke="#00b8ff" stroke-width="2"/>
+    <text x="686" y="402" text-anchor="middle" fill="#00b8ff" font-size="18" font-weight="700">ŚRODA</text>
+    <text x="686" y="430" text-anchor="middle" fill="#f3f4f6" font-size="15">build razem</text>
+    <text x="686" y="450" text-anchor="middle" fill="#6b7280" font-size="13">M1–M5 + live</text>
+
+    <!-- Czw -> Niedz : build + deploy -->
+    <rect x="792" y="370" width="368" height="90" rx="12" fill="#0e1626" stroke="#00b8ff" stroke-width="2"/>
+    <text x="976" y="402" text-anchor="middle" fill="#00b8ff" font-size="18" font-weight="700">CZW → NIEDZ</text>
+    <text x="976" y="430" text-anchor="middle" fill="#f3f4f6" font-size="16">build + deploy</text>
+    <text x="976" y="450" text-anchor="middle" fill="#6b7280" font-size="14">smoke test → publiczny URL</text>
+  </g>
+
+  <!-- ===== Footer rule ===== -->
+  <text x="590" y="520" text-anchor="middle" fill="#6b7280" font-size="15" font-style="italic">Każda faza ma mierzalny output. Deadline całości: niedziela = Demo Day ready.</text>
+  <text x="590" y="555" text-anchor="middle" fill="#00ff9d" font-size="16" font-weight="600">7 dni to deadline, nie harmonogram.</text>
+</svg>

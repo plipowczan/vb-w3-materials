@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="600" viewBox="0 0 1180 600" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#00ff9d"/>
+    </marker>
+  </defs>
+
+  <!-- Document "page" -->
+  <rect x="50" y="70" width="640" height="500" rx="16" fill="#0e1626" stroke="#2b3242" stroke-width="2"/>
+  <text x="74" y="108" fill="#f3f4f6" font-size="20" font-weight="700">PRD</text>
+  <text x="666" y="108" text-anchor="end" fill="#6b7280" font-size="15">≤ 2 strony · każda sekcja ≤ ½ strony</text>
+  <line x1="74" y1="122" x2="666" y2="122" stroke="#2b3242" stroke-width="1"/>
+
+  <!-- Rows: y = 142 + i*44 -->
+  <!-- §1 -->
+  <rect x="74" y="142" width="592" height="36" rx="7" fill="#151b2b" stroke="#2b3242" stroke-width="1.5"/>
+  <text x="92" y="165" fill="#6b7280" font-size="15" font-weight="700">§1</text>
+  <text x="130" y="165" fill="#cdd3dc" font-size="15">Problem-Solution Fit + Value Proposition</text>
+  <!-- §2 -->
+  <rect x="74" y="186" width="592" height="36" rx="7" fill="#151b2b" stroke="#2b3242" stroke-width="1.5"/>
+  <text x="92" y="209" fill="#6b7280" font-size="15" font-weight="700">§2</text>
+  <text x="130" y="209" fill="#cdd3dc" font-size="15">ICP + 1 persona</text>
+  <!-- §3 CRITICAL -->
+  <rect x="74" y="230" width="592" height="36" rx="7" fill="#0a1f17" stroke="#00ff9d" stroke-width="2"/>
+  <text x="92" y="253" fill="#00ff9d" font-size="15" font-weight="700">§3</text>
+  <text x="130" y="253" fill="#f3f4f6" font-size="15" font-weight="600">Core Flow — JEDNA user story</text>
+  <text x="650" y="253" text-anchor="end" fill="#00ff9d" font-size="15">★</text>
+  <!-- §4 -->
+  <rect x="74" y="274" width="592" height="36" rx="7" fill="#151b2b" stroke="#2b3242" stroke-width="1.5"/>
+  <text x="92" y="297" fill="#6b7280" font-size="15" font-weight="700">§4</text>
+  <text x="130" y="297" fill="#cdd3dc" font-size="15">Data model (3–5 encji)</text>
+  <!-- §5 -->
+  <rect x="74" y="318" width="592" height="36" rx="7" fill="#151b2b" stroke="#2b3242" stroke-width="1.5"/>
+  <text x="92" y="341" fill="#6b7280" font-size="15" font-weight="700">§5</text>
+  <text x="130" y="341" fill="#cdd3dc" font-size="15">Tech stack lock + brand</text>
+  <!-- §6 CRITICAL -->
+  <rect x="74" y="362" width="592" height="36" rx="7" fill="#0a1f17" stroke="#00ff9d" stroke-width="2"/>
+  <text x="92" y="385" fill="#00ff9d" font-size="15" font-weight="700">§6</text>
+  <text x="130" y="385" fill="#f3f4f6" font-size="15" font-weight="600">Out of scope — min. 5 pokus</text>
+  <text x="650" y="385" text-anchor="end" fill="#00ff9d" font-size="15">★</text>
+  <!-- §7 CRITICAL -->
+  <rect x="74" y="406" width="592" height="36" rx="7" fill="#0a1f17" stroke="#00ff9d" stroke-width="2"/>
+  <text x="92" y="429" fill="#00ff9d" font-size="15" font-weight="700">§7</text>
+  <text x="130" y="429" fill="#f3f4f6" font-size="15" font-weight="600">Open Questions — agent PYTA</text>
+  <text x="650" y="429" text-anchor="end" fill="#00ff9d" font-size="15">★</text>
+  <!-- §8 -->
+  <rect x="74" y="450" width="592" height="36" rx="7" fill="#151b2b" stroke="#2b3242" stroke-width="1.5"/>
+  <text x="92" y="473" fill="#6b7280" font-size="15" font-weight="700">§8</text>
+  <text x="130" y="473" fill="#cdd3dc" font-size="15">Definition of Done (boolean)</text>
+  <!-- §9 conditional -->
+  <rect x="74" y="494" width="592" height="36" rx="7" fill="#0e1622" stroke="#00b8ff" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="92" y="517" fill="#00b8ff" font-size="15" font-weight="700">§9</text>
+  <text x="130" y="517" fill="#9aa4b2" font-size="15">Component Inventory — tylko Track Builder</text>
+
+  <!-- Right column header -->
+  <text x="760" y="158" fill="#00ff9d" font-size="19" font-weight="700">3 sekcje, które</text>
+  <text x="760" y="184" fill="#00ff9d" font-size="19" font-weight="700">ratują deadline</text>
+
+  <!-- connectors from critical rows to aligned callouts (straight horizontal) -->
+  <line x1="666" y1="248" x2="752" y2="248" stroke="#00ff9d" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="762" y="245" fill="#f3f4f6" font-size="15">§3 — „1 dobrze &gt; 3 źle"</text>
+
+  <line x1="666" y1="380" x2="752" y2="380" stroke="#00ff9d" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="762" y="377" fill="#f3f4f6" font-size="15">§6 — scope creep killer</text>
+
+  <line x1="666" y1="424" x2="752" y2="424" stroke="#00ff9d" stroke-width="2" marker-end="url(#ar)"/>
+  <text x="762" y="421" fill="#f3f4f6" font-size="15">§7 — agent nie zgaduje</text>
+
+  <!-- punchline -->
+  <rect x="752" y="466" width="378" height="74" rx="12" fill="#0a1f17" stroke="#00ff9d" stroke-width="1.5"/>
+  <text x="941" y="498" text-anchor="middle" fill="#f3f4f6" font-size="16">Większość pracy nad PRD</text>
+  <text x="941" y="524" text-anchor="middle" fill="#00ff9d" font-size="18" font-weight="700">to ODMAWIANIE</text>
+</svg>
