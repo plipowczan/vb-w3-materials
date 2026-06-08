@@ -8,7 +8,7 @@ Komplet materiałów z mojego modułu W3. Wszystko do **czytania** w jednym miej
 |---|---|
 | **[PLAYBOOK.md](./PLAYBOOK.md)** | Pełny playbook 7-dniowego MVP: Fazy 0–5, anty-wzorce, realne czasy z pilotażu. Główny dokument. |
 | **[prompts/](./prompts)** | 4 prompty do wklejenia (Lovable / v0 / dowolny czat): `01-brand` → `02-prd` → `03-reguly` → `04-milestones`. Kolejność obowiązkowa. |
-| **[slides/](./slides)** | Prezentacja ze Spotkania 1 (PDF + HTML, bez notatek mówcy). |
+| **[slides/](./slides)** | Prezentacja ze Spotkania 1 (PDF + HTML, bez notatek mówcy). 👉 **otwórz w przeglądarce:** https://plipowczan.github.io/vb-w3-materials/slides/w3-spotkanie-1.html |
 
 ## 🛠️ Build — osobny szablon repo
 
